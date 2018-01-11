@@ -34,8 +34,8 @@ node { // No specific label
 }
 
 void mvn(String args) {
-    def mvnHome = tool 'M3'
-    def javaHome = tool 'JDK8'
+    def mvnHome = tool 'mvn'
+    def javaHome = tool 'jdk8'
 
     // Apache Maven related side notes:
     // --batch-mode : recommended in CI to inform maven to not run in interactive mode (less logs)
